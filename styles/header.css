@@ -1,4 +1,35 @@
 #intro {
-      height: 75046,875rem;
       width: 100%;
+      background-image: url(../assets/img/Background_Intro.png);
+      object-fit: cover;
+      /* height: 46,875rem; */
+
+     
+      
+      /* aspect-ratio: 1/1; */
+
+}
+
+.info {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+.user {
+      position: relative;
+      width: 7rem;
+      height: 7rem;
+      border-radius: 50%;
+      background: red;
+
+     
+      .icone-tag {
+            position: absolute;
+            bottom: .175rem;
+            right: .175rem;
+
+            width: 32px;
+            height: 32px;
+      }
 }

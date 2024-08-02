@@ -1,0 +1,35 @@
+
+.title-lg{
+      font: var(--title-lg);
+}
+
+.title-md {
+      font: var(--title-md);
+}
+.title-sm{
+      font: var(--title-sm);
+}
+
+.text-md{
+      font: var(--text-md);
+}
+.text-sm{
+      font: var(--text-sm);
+}
+
+.subtitle {
+      font: var(--subtitle);
+}
+
+.grid {
+      display: grid;
+}
+
+
+.gap-56 {
+      gap: 3,5rem;
+}
+
+.gap-80 {
+      gap: 5rem;
+}
