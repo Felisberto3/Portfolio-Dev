@@ -29,8 +29,8 @@
       
       --subtitle :  20px/120% var(--font-family-Inconsolata);
 
-      --text-md :  16px/140% var(--font-family-Inconsolata);
-      --text-sm :  14px/140% var(--font-family-Inconsolata);
+      --text-md :  .9rem/140% var(--font-family-Inconsolata);
+      --text-sm :  .875rem/140% var(--font-family-Inconsolata);
      
 
 }
