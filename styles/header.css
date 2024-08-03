@@ -2,6 +2,7 @@
       position: relative;
       width: 100%;
       background-image: url(../assets/img/Background_Intro.png);
+      background-size: cover;
       object-fit: cover;
       height: 46.875rem;
       
