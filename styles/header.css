@@ -15,9 +15,7 @@
 
       h2 {
             font: var(--subtitle);
-            strong {
-                  color: var(--red);
-            }
+            
       }
 
       h1 {

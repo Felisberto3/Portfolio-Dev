@@ -41,6 +41,10 @@ body {
       color: var(--gray-500);
       background: var(--gray-300);
 
+      strong {
+            color: var(--red);
+      }
+
 }
 
 .container {
