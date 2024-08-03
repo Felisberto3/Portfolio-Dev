@@ -33,3 +33,19 @@
 .gap-80 {
       gap: 5rem;
 }
+
+.border {
+      border: solid var(--red);
+}
+
+.grid-auto-flow-col {
+      grid-auto-flow: column;
+}
+.justify-content-sb {
+      justify-content: space-between;
+}
+
+
+.justify-items {
+      justify-items: center;
+}

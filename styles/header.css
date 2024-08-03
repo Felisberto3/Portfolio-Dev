@@ -1,35 +1,84 @@
 #intro {
+      position: relative;
       width: 100%;
       background-image: url(../assets/img/Background_Intro.png);
       object-fit: cover;
-      /* height: 46,875rem; */
-
-     
+      height: 46.875rem;
       
-      /* aspect-ratio: 1/1; */
+      & > img {
+            position: absolute;
+            bottom: 3.78125rem;
+            right: 50%;
 
+      }
+
+      h2 {
+            font: var(--subtitle);
+            strong {
+                  color: var(--red);
+            }
+      }
+
+      h1 {
+            font: var(--title-lg);
+            color: var(--gray-600);
+      }
+
+      p {
+            font: var(--text-sm);
+            color: var(--gray-400); 
+      }
 }
 
 .info {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
-}
-.user {
-      position: relative;
-      width: 7rem;
-      height: 7rem;
-      border-radius: 50%;
-      background: red;
+
+     width: 65rem;
+     height: 27.9375rem;
+     margin: 7.5rem 10.1875rem 11.4375rem 10.1875rem;
+
+     header {
+            width: 42.5rem;
+            height: 22.3125rem;
+            margin: auto;
+            margin-bottom: 2rem;
+            gap: 4rem;
+            
+            #avatar {
+                  position: relative;
+                  width: 7rem;
+                  height: 7rem;
+                  display: grid;
+                  justify-content: center;
+                  align-items: center;
+                  border-radius: 50%;
+                  & > img:nth-child(1) {
+                        width: 5.454375rem;
+                        height: 5.454375rem;
+                  }
+            }
+
+            .dev-icon {
+                  position: absolute;
+                  bottom: 0;
+                  right: -10px;
+            }
+         
+     }
 
      
-      .icone-tag {
-            position: absolute;
-            bottom: .175rem;
-            right: .175rem;
+}
 
-            width: 32px;
-            height: 32px;
+.tags {
+      width: 47.125rem;
+      margin: 0 auto;
+      gap: 1rem;
+      div {
+            background: var(--gray-300);
+            font: var(--text-md);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border-radius: 999px;
       }
 }
